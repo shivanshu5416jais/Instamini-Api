@@ -5,6 +5,8 @@
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "heroku-postbuild":"cd ../react-front && npm install && npm run build"
   },
   "keywords": [
